@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: var(--bg-color);
+}
+.title {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: var(--main-color);
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 800;
+    text-decoration: overline red;
+}
+/* .title:hover {
+    transition: ease-out;
+    transform: matrix(2px);
+} */
+:root{
+    --bg-color: #1f1f21;
+    --text-color: #fff;
+    --main-color: #ffae00;
+    --big-font: 7rem;
+    --p-font: 1.1rem;
+}
+.shoes {
+    border-style: groove;
+    border-radius: 5px;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    margin-left: 20px;
+    background-color: var(--main-color);
+    border-color: #ffae00;
+}
+.shoes:hover {
+    transition: ease-out;
+	transform: scale(1.08);
+	cursor: pointer;
+}
+.shoes2:hover {
+    transition: ease-out;
+	transform: scale(1.08);
+	cursor: pointer;
+}
+.shoes3:hover {
+    transition: ease-out;
+	transform: scale(1.08);
+	cursor: pointer;
+}
+.shoes4 :hover {
+    transition: ease-out;
+	transform: scale(1.08);
+	cursor: pointer;
+}
+
+.pizza1 {
+    height:240px;
+    width: 289px;
+
+}
+.shoes2 {   
+    
+    border-style: groove ;
+    border-radius: 5px;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    background-color: var(--main-color);
+    margin-left: 40px;
+    border-color: #ffae00;
+   
+}
+.shoes3 {
+    border-style: groove ;
+    border-radius: 5px;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    background-color: var(--main-color);
+    margin-left: 40px;
+    border-color: #ffae00;
+}
+.shoes4 {
+    border-style: groove ;
+    border-radius: 5px;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    background-color: var(--main-color);
+    margin-left: 40px;
+    border-color: #ffae00;  
+}
+.whole-pizza {
+    display: flex;
+    flex-direction: row;    
+    margin-top: 20px;
+    
+}
+button {
+    height: 30px;
+    width: 50px;
+    border-radius: 10px;
+}
+.whole-btn {
+    border-style: groove;
+    text-align: center;
+    width: 300px;
+    margin-left: 540px;
+    margin-top: 30px;
+    background-color: var(--main-color);
+}
+.btn {
+    width: 70px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.logo{
+    color: var(--text-color);
+    font-size: 41px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 20px ;
+    margin-left: 20px;
+}
+.logo span{
+    color: var(--main-color);
+}
